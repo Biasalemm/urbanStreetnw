@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    background-color: #407595;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    height: 110px;
+    margin-bottom: 100px;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+    gap:40px;
+}
+
+nav ul li {
+    display: flex;
+    padding: 20px;
+    color: aliceblue;
+}
+.logo{
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-block: 20px;
+    gap: 250px;
+    
+}
+.whatts{
+    width: 40px;
+    height: 40px;
+}
+
+.Instagram{
+    width: 40px;
+    height: 40px;
+}
+
+.Facebook{
+    width: 40px;
+    height: 40px;
+}
+
+.X{
+    width: 40px;
+    height: 40px;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+}
+h4{
+    color: rgb(0, 0, 0);
+}
+
+.contato{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin: 3px;
+    width: 370px;
+    margin-left: 20px;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    width: 370px;
+    margin-right: 20px;
+}
+.login{
+    height: 40px;
+    width: 50px;
+    margin-top: 10px;
+}
+.coracao{
+    height: 40px;
+    width: 45px;
+    margin-top: 10px;
+}
+.carrinho{
+    height: 40px;
+    width: 45px;
+    margin-top: 10px;
+}
+.BLACK{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+}
+.BLACK h3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size:medium;
+}
+.BLACK h4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: small;
+}
+.ofertas{
+    display: flex;
+    background-color: black;
+    width: 240px;
+    height: 40px;
+    align-items: center;
+    margin-left: 700PX;
+    justify-content: center;
+   border-radius: 30px;
+   font-size: small;
+   margin-top: -90px;
+}
+.ofertas:active{
+background-color: #77797b;
+}
+section {
+    text-align: center;
+}
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tabela {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.tabela img {
+ margin: 0 10px;
+ 
+ gap: 20px;
+ 
+}
+.quadro-informacoes {
+    background-color: rgba(189, 200, 206, 0.8); 
+    margin-left: 100px;
+    width: 1400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  border-radius: 30px;
+}
+.NB{
+   height: 100px;
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.AD{
+   height: 100px;
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.VS{
+   height: 100px;
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.comp{
+    background-color: rgb(87, 215, 87);
+    width: 200px;
+    height: 30px;
+     border-radius:8px; 
+     gap: 20px;
+     color: rgb(67, 67, 67);
+     align-items: center;
+     justify-content: center;
+     display: flex;
+}
+span{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
